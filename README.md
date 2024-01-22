@@ -1,1 +1,1 @@
-# dsa
+# This is a collection of DSA problems to practice
