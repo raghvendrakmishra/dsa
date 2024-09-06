@@ -71,6 +71,8 @@ public class ContainsDuplicate {
                 return true;
             }
         }
+        int[] freqArray = new int[12];
+        Arrays.stream(freqArray).filter(n -> n > 1).map(n -> n*(n-1)/2).sum();
 
         // sort the array
         Arrays.sort(numbers);
